@@ -11,7 +11,7 @@ def tokenize(sentence):
 def stem(word):
     return stemmer.stem(word.lower())
 
-def bag_of_word(tokenized_sentence, all_worlds):
+def bag_of_words(tokenized_sentence, all_worlds):
     """
     sentence = ["hello", "how", "are", "you"]
     words = ["hi", "hello", "I", "you", "bye", "thank", "cool"]
@@ -22,6 +22,6 @@ def bag_of_word(tokenized_sentence, all_worlds):
     bag = np.zeros(len(all_worlds), dtype=np.float32)
     for idx, w in enumerate(all_worlds):
         if w in tokenized_sentence:
-            bag[idx] - 1.0
+            bag[idx] = 1.0
     return bag
 

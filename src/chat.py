@@ -39,6 +39,7 @@ def get_response(msg):
     probs = torch.softmax(outputs, dim = 1)
     prob = probs[0][predicted.item()]
     
+    print("PROB", prob)
     if prob.item() > 0.75:
         for intent in intents['intents']:
             if tag == intent['tag']:

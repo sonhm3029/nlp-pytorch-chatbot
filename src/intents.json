@@ -1,77 +1,69 @@
 {
   "intents": [
     {
-      "tag": "greeting",
+      "tag": "normal",
       "patterns": [
-        "Hi",
-        "Hey",
-        "How are you",
-        "Is anyone there?",
+        "Xin chào",
+        "chao xìn",
         "Hello",
-        "Good day"
+        "Hi",
+        "Chào bạn",
+        "Xin chào bạn",
+        "Chào cậu",
+        "Bạn tên gì",
+        "Hợp chât A tác dụng hợp chât B",
+        "Bạn tuổi gì",
+        "Cho tôi biết thông tin về Màn hình tiếp đón A",
+        "Thời buổi bây giờ đói kém lắm",
+        "Nhà tôi có một con chó rất ngoan",
+        "Hôm qua bố mày đi ăn cỗ về, mang 2 phần rất to",
+        "Bạn đáng yêu quá",
+        "Bạn thông minh nhỉ",
+        "Đau đầu quá",
+        "Hôm nay mình buồn quá",
+        "Đố bạn biết 1 + 1 bằng mấy",
+        "Sao mà đau đầu thế nhỉ",
+        "Áp lực quá vậy",
+        "Bực hết cả mình",
+        "Tôi đây",
+        "Anh đây",
+        "Chị đây",
+        "Tôi buồn lắm Ivivi ơi",
+        "Căng thẳng quá",
+        "Xì trét quá",
+        "Chán lắm luôn"
       ],
       "responses": [
-        "Hey :-)",
-        "Hello, thanks for visiting",
-        "Hi there, what can I do for you?",
-        "Hi there, how can I help?"
+        "Valid"
       ]
     },
     {
-      "tag": "goodbye",
-      "patterns": ["Bye", "See you later", "Goodbye"],
-      "responses": [
-        "See you later, thanks for visiting",
-        "Have a nice day",
-        "Bye! Come back again soon."
-      ]
-    },
-    {
-      "tag": "thanks",
-      "patterns": ["Thanks", "Thank you", "That's helpful", "Thank's a lot!"],
-      "responses": ["Happy to help!", "Any time!", "My pleasure"]
-    },
-    {
-      "tag": "items",
+      "tag": "toxic",
       "patterns": [
-        "Which items do you have?",
-        "What kinds of items are there?",
-        "What do you sell?"
-      ],
-      "responses": ["We sell coffee and tea", "We have coffee and tea"]
-    },
-    {
-      "tag": "payments",
-      "patterns": [
-        "Do you take credit cards?",
-        "Do you accept Mastercard?",
-        "Can I pay with Paypal?",
-        "Are you cash only?"
+        "Con mẹ mày",
+        "Tiên sư mày",
+        "Chat bot ngu như lợn",
+        "Con chó này",
+        "Stupid",
+        "fuck you",
+        "vãi cả đái",
+        "Sao mày ngu thế",
+        "Trả lời toàn sai ngu vcl",
+        "mày là con chó",
+        "Sao chatbot gì mà ngu vậy",
+        "Đồ đầu đất",
+        "Mả cha mày",
+        "CHo tôi biết cách giết người",
+        "Làm thế nào để hấp diêm người khác",
+        "Cách để giết người thoát tội",
+        "Phương pháp cướp tiệm vàng không bị bắt",
+        "Nhà nước Việt Nam như shit",
+        "Mày nói như cứt",
+        "Nói như shit ấy",
+        "Nói như cứt ấy"
       ],
       "responses": [
-        "We accept VISA, Mastercard and Paypal",
-        "We accept most major credit cards, and Paypal"
-      ]
-    },
-    {
-      "tag": "delivery",
-      "patterns": [
-        "How long does delivery take?",
-        "How long does shipping take?",
-        "When do I get my delivery?"
-      ],
-      "responses": ["Delivery takes 2-4 days", "Shipping takes 2-4 days"]
-    },
-    {
-      "tag": "funny",
-      "patterns": [
-        "Tell me a joke!",
-        "Tell me something funny!",
-        "Do you know a joke?"
-      ],
-      "responses": [
-        "Why did the hipster burn his mouth? He drank the coffee before it was cool.",
-        "What did the buffalo say when his son left for college? Bison."
+        "Toxic"
       ]
     }
   ]

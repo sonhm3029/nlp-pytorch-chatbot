@@ -73,6 +73,7 @@ class ChatApplication:
         self.text_widget.configure(state=DISABLED)
         
         # answer
+        print("QUES", msg)
         msg2 = f"{bot_name}: {get_response(msg)}\n\n"
         self.text_widget.configure(state=NORMAL)
         self.text_widget.insert(END, msg2)
